@@ -6,8 +6,6 @@
 
 ## Архитектура
 
-![Архитектура](https://via.placeholder.com/800x400?text=API+Gateway+→+Order+Service+→+RabbitMQ+→+Notification+%26+Analytics)
-
 | Компонент | Технология | Порт | Роль |
 |-----------|------------|------|------|
 | **API Gateway** | FastAPI (Python) | 8000 | Входная точка: принимает REST-запросы, валидирует, проксирует в Order Service |
