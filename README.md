@@ -30,7 +30,7 @@
    ```bash
    cd order-system
 
-   # Что именно можно довавить
+# Что именно можно довавить
 ## Добавлять новые метрики
 * В API Gateway (FastAPI): использовать Instrumentator().instrument(app).expose(app) – легко добавить кастомные метрики через Counter, Histogram и т.д.
 
