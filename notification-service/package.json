@@ -1,0 +1,8 @@
+{
+  "name": "notification-service",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "express": "^4.18.2",
+    "prom-client": "^15.0.0"
+  }
+}
